@@ -6,7 +6,7 @@
      <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-    <h1>PXL - CI/CD Demo application</h1><hr/>
+    <h1>PXL - CI/CD Demo application || Eerste pipeline test</h1><hr/>
         <?php
         // Use 'composer install' to get dependencies
         // Remember to run tests using PHPUnit: 'vendor/bin/phpunit tests'
@@ -17,7 +17,7 @@
         // Define mysql server settings
         $serverName = "localhost";
         $username = "root";
-        $password = "ventieldopje24";
+        $password = "Mysqllaatmebinnen1!";
         $dbName = "employees";
 
         // Create a new mysqli connection. Remember to enable this in php.ini !!
