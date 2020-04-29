@@ -42,7 +42,7 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`emp_no`, `first_name`, `last_name`) VALUES
-(1001, 'Dries', 'Swinnen'),
+(1001, 'Drieter', 'Swinnen'),
 (1002, 'Maarten', 'Sourbron'),
 (1003, 'Lode', 'Van Hout'),
 (1004, 'Tim', 'Dupont'),
