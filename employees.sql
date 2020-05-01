@@ -42,12 +42,13 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`emp_no`, `first_name`, `last_name`) VALUES
-(1001, 'Drieter', 'Swinnen'),
+(1001, 'Dries', 'Swinnen'),
 (1002, 'Maarten', 'Sourbron'),
 (1003, 'Lode', 'Van Hout'),
 (1004, 'Tim', 'Dupont'),
 (1005, 'David', 'Parren'),
-(1006, 'Gert', 'Van Waeyenberg');
+(1006, 'Gert', 'Van Waeyenberg'),
+(1007, 'test', 'testing');
 
 --
 -- Indexen voor geëxporteerde tabellen
