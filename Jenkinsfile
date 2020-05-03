@@ -39,7 +39,7 @@ pipeline {
         }
         stage('Post-cleanup') {
          steps {
- 	    deleteDir()
+ 	    //deleteDir()
             echo 'Post-cleanup'
          }
     }
