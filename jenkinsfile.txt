@@ -8,8 +8,8 @@ pipeline {
             echo 'cleanup'
     }
 
- /*        }
-        stage('Fetch code') {
+        }
+       /* stage('Fetch code') {
          steps {
             echo 'From git repository'
             git 'https://github.com/Tristan011/2TIN_ResearchProject'
