@@ -1,19 +1,6 @@
 pipeline {
    agent any
    stages {
-       stage('Cleanup') {
-         steps {
-            deleteDir()
-            echo 'cleanup'
-    }
-
-        }
-       /* stage('Fetch code') {
-         steps {
-            echo 'From git repository'
-            git 'https://github.com/Tristan011/2TIN_ResearchProject'
-         }
-        } */
         stage('Build') {
          steps {
             echo 'Build test'
@@ -52,7 +39,8 @@ pipeline {
         }
         stage('Post-cleanup') {
          steps {
-            echo 'Post-cleanup test'
+ 	    deleteDir()
+            echo 'Post-cleanup'
          }
     }
        
