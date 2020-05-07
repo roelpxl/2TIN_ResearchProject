@@ -1,5 +1,6 @@
-pipeline {
-   agent any
+/*pipeline {
+   agent any */
+node('master'){
    stages {
         stage('Build') {
          steps {
